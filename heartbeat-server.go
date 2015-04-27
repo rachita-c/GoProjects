@@ -13,8 +13,8 @@ import (
 )
 
 const (
-	HOST_PEER        = "127.0.0.1"
-	PORT_PEER        = "4444"
+	HOST_PEER        = "209.131.50.54"
+	//PORT_PEER        = "4444"
 	HOST_OTHERBN     = "127.0.0.1"
 	PORT_OTHERBN     = "4445"
 	TIMEOUT_SEC      = 5
@@ -181,6 +181,7 @@ func requestDDNS() {
 
 	for {
 		user := "rchandra101"
+		pass := "r1o2k3da"
 		host := "bootstrap-rchandra.ddns.net"
 		ip := HOST_PEER
 		format := "http://dynupdate.no-ip.com/nic/update?hostname=%s&myip=%s"
