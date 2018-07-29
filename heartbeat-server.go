@@ -180,8 +180,8 @@ func requestDDNS() {
 	client := &http.Client{}
 
 	for {
-		user := "rchandra101"
-		pass := "r1o2k3da"
+		user := "TBD"
+		pass := "TBD"
 		host := "bootstrap-rchandra.ddns.net"
 		ip := HOST_PEER
 		format := "http://dynupdate.no-ip.com/nic/update?hostname=%s&myip=%s"
